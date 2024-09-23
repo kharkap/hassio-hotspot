@@ -1,5 +1,5 @@
 {
-  "name": "Hass.io Addons by João Loureiro",
-  "url": "https://github.com/joaofl/hassio-addons",
-  "maintainer": "João Loureiro <joaofl@gmail.com>"
+  "name": "Hass.io Addons by João Loureiro w/ fix by kharkap",
+  "url": "https://github.com/kharkap/hassio-hotspot",
+  "maintainer": "João Loureiro <joaofl@gmail.com> & kharkap"
 }
