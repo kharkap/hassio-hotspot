@@ -2,7 +2,7 @@
 
 # SIGTERM-handler this funciton will be executed when the container receives the SIGTERM signal (when stopping)
 reset_interfaces(){
-    ifdown $INTERFACE
+    ip link set $INTERFACE down
     sleep 1
     ip link set $INTERFACE down
     ip addr flush dev $INTERFACE
