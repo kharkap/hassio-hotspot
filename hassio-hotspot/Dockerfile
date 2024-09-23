@@ -1,7 +1,7 @@
 ARG BUILD_FROM
 FROM $BUILD_FROM
 
-LABEL João Loureiro <joaofl@gmail.com>
+LABEL João Loureiro <joaofl@gmail.com> and KharKap
 
 # Set shell
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
@@ -13,7 +13,7 @@ RUN apk update && apk add --no-cache    \
     avahi                               \
     bash jq iw net-tools                \
     sudo busybox-extras                 \
-    hostapd networkmanager-cli iptables \
+    hostapd iptables \
     linux-firmware-other                \
     linux-firmware-ath6k                \
     linux-firmware-ath10k               \

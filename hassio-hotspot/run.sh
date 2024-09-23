@@ -71,9 +71,6 @@ if [[ ${UNKNOWN} == true ]]; then
     exit 1
 fi
 
-echo "Set nmcli managed no"
-nmcli dev set ${INTERFACE} managed no
-
 echo "Network interface set to ${INTERFACE}"
 
 # Configure iptables to enable/disable internet
