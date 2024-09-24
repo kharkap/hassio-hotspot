@@ -19,7 +19,8 @@ RUN apk update && apk add --no-cache    \
     linux-firmware-ath6k                \
     linux-firmware-ath10k               \
     linux-firmware-ath9k_htc &&         \
-    rm -rf /var/cache/apk/*
+    rm -rf /var/cache/apk/* &&          \
+	ln -s /lib/firmware/brcm/brcmfmac-ap6330-sdio.txt /lib/firmware/brcm/brcmfmac4330-sdio.rockchip,rk3318-box.txt
 
 COPY hostapd.conf /
 COPY udhcpd.conf /etc/udhcpd.conf
