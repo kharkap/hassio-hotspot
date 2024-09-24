@@ -13,8 +13,9 @@ RUN apk update && apk add --no-cache    \
     avahi                               \
     bash jq iw net-tools                \
     sudo busybox-extras                 \
-    hostapd iptables \
+    hostapd iptables                    \
     linux-firmware-other                \
+    linux-firmware-brcm                 \
     linux-firmware-ath6k                \
     linux-firmware-ath10k               \
     linux-firmware-ath9k_htc &&         \
